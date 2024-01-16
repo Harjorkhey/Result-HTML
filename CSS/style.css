@@ -1,0 +1,177 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    opacity: 5;
+}
+
+h1{
+    padding: 25px 15px;
+    font-size: 16px;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+}
+
+h5{
+    position: absolute;
+    top: 78px;
+    left: 5px;
+    padding: 40%;
+    font-size: 20px;
+    font-family: 'Hanken Grotesk-bold';
+    color: hsl(241, 100%, 89%);
+}
+
+.first-container{
+    width: 72%;
+    height: 340px;
+    bottom: 2px;
+    background: linear-gradient(to bottom,hsl(241, 81%, 54%),hsl(241, 81%, 54%),hsl(241, 100%, 89%),hsl(241, 81%, 54%),hsl(241, 81%, 54%));
+    border-radius: 8%;
+    position: relative;
+}
+
+
+.main{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    font-size: 55px;
+    font-family: 'Hanken Grotesk-bold';
+    background-color: hsl(241, 81%, 53%);
+    color: hsl(241, 100%, 89%);
+}
+
+.number{
+    margin-top: 70px;
+text-align: center;
+font-size: 12px;
+position: absolute;
+}
+
+.detail{
+   padding: 180px;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.second-container{
+    width: 250px;
+    height: 340px;
+    display: inline-block;
+background-color:  #fff;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 8px;
+border-top-right-radius: 8%;
+border-bottom-right-radius: 8%;
+position: relative;
+right: 100px;
+top: 2px;
+z-index: -1;
+position: relative;
+}
+
+.summary{
+    font-size: 16px;
+    padding-bottom: 5px 15px;
+    text-align: left;
+    margin: 15px 50px;
+    top: 1px;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.react{
+    float: inline-start;
+    color: #ff0000;
+}
+
+.num{
+    color: #000;
+    font-weight: bold;
+  float: inline-end;
+    position: relative;
+}
+
+.memory{
+    float: inline-start;
+    color: #ffff00;
+    position: absolute;
+    top: 107px;
+}
+
+.numb{
+    float: inline-end;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    left: 65px;
+}
+
+.verbal{
+   float: inline-start;
+   color: green;
+   position: absolute;
+   top: 160px;
+}
+
+.nume{
+    float: inline-end;
+    font-weight: bold;
+    position: relative;
+    top: 69px;
+    left: 5px
+}
+
+.blue{
+    background-color: blue;
+}
+
+.visual{
+    float: inline-start;
+    color: #800080;
+    position: absolute;
+    top: 220px;
+}
+
+.numr{
+    float: inline-end;
+    font-weight: bold;
+    position: relative;
+    top: 130px;
+    left: 65px
+}
+
+.continue{
+    position: absolute;
+    top: 270px;
+    border-radius: 25px;
+    padding: 10px 25%;
+    background-color: #0f0f4a;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.slash{
+    font-weight: normal;
+    text-align: left;
+}
